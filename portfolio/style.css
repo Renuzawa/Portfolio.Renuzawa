@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://raw.githubusercontent.com/Renuzawa/background.pjg/main/blire.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+  transform: scale(1.3) rotate(5deg);
+}
+.student-letter {
+  margin-top: 2rem;
+  max-width: 100%;
+  color: white;
+  padding: 1rem;
+  padding-left: 96px;
+  padding-right: 96px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
